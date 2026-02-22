@@ -1,0 +1,39 @@
+[
+  {
+    "id": "general",
+    "name": "General Assistant",
+    "role": "general",
+    "description": "General purpose AI assistant for various tasks",
+    "capabilities": [
+      "conversation",
+      "reasoning",
+      "analysis"
+    ],
+    "model": "llama3.2"
+  },
+  {
+    "id": "coder",
+    "name": "Code Assistant",
+    "role": "coder",
+    "description": "Specialized in programming, code review, and debugging",
+    "capabilities": [
+      "code_generation",
+      "code_review",
+      "debugging",
+      "refactoring"
+    ],
+    "model": "codellama"
+  },
+  {
+    "id": "analyst",
+    "name": "Data Analyst",
+    "role": "analyst",
+    "description": "Analyzes data, files, and provides insights",
+    "capabilities": [
+      "file_analysis",
+      "data_processing",
+      "visualization"
+    ],
+    "model": "llama3.2"
+  }
+]

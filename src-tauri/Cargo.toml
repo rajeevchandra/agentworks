@@ -1,0 +1,27 @@
+[package]
+name = "agentworks"
+version = "0.1.0"
+description = "AgentWorks - Local AI Agent Platform with Automation"
+authors = ["you"]
+license = ""
+repository = ""
+edition = "2021"
+
+[build-dependencies]
+tauri-build = { version = "1.5", features = [] }
+
+[dependencies]
+tauri = { version = "1.5", features = [ "fs-create-dir", "fs-write-file", "dialog-open", "fs-read-dir", "fs-remove-file", "dialog-save", "fs-read-file", "shell-open", "window-close", "window-hide", "window-maximize", "window-minimize", "window-show", "window-start-dragging", "window-unmaximize", "window-unminimize"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tokio = { version = "1.35", features = ["full"] }
+reqwest = { version = "0.11", features = ["json"] }
+base64 = "0.21"
+sha2 = "0.10"
+keyring = "2.3"
+chrono = { version = "0.4", features = ["serde"] }
+regex = "1.10"
+anyhow = "1.0"
+
+[features]
+custom-protocol = ["tauri/custom-protocol"]
