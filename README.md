@@ -328,25 +328,26 @@ Use GitHub Actions to build for all platforms automatically:
 - [x] Slash commands (/read, /write, /list, etc.)
 - [x] Session management (save/load conversations)
 - [x] Task scheduler with automated workflows
+- [x] Custom agent creation UI (Agent Manager)
 - [x] Beautiful dark theme with gradients
 - [x] Real-time model switching
+- [x] Agent memory and context persistence
 
 ### 🚧 In Progress (v1.1)
 - [ ] `/write` command with agent-generated content
 - [ ] `/search` command for file content search
 - [ ] Agent collaboration (multi-agent workflows)
-- [ ] Traffic monitoring/debugging panel
+- [ ] File-based session storage (replace localStorage)
 
 ### 🔮 Future (v2.0)
-- [ ] Custom agent creation UI
 - [ ] Plugin system for extensions
 - [ ] Desktop automation (clipboard, screenshots)
 - [ ] Web scraping capabilities
 - [ ] Multi-model support (GPT-4, Claude API)
-- [ ] Agent memory and context persistence
 - [ ] Keyboard shortcuts
 - [ ] Theme customization
 - [ ] Export conversations (PDF, Markdown)
+- [ ] Session browser UI with search/filter
 
 ## 📄 License
 
